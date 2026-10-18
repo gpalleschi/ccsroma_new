@@ -1,0 +1,13 @@
+{
+  "youtubeChannel": "#",
+  "messages": [
+    {
+      "id": "msg-1",
+      "title": "Messaggio recente",
+      "speaker": "CCS Roma",
+      "date": "2026-10-11",
+      "duration": "00:42:00",
+      "url": "#"
+    }
+  ]
+}

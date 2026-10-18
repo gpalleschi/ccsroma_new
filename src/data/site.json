@@ -1,0 +1,24 @@
+{
+  "org": {
+    "name": "CCS Roma",
+    "email": "sebastianz@libero.it",
+    "phone": "+39 346 679 8427",
+    "phoneHref": "tel:+393466798427",
+    "addressLines": ["Via Giuseppe de Robertis, 8", "00143 Roma RM"],
+    "mapDirectionsUrl": "https://www.google.com/maps/dir/?api=1&destination=Via%20Giuseppe%20de%20Robertis%208%2C%2000143%20Roma"
+  },
+  "social": [
+    { "id": "facebook", "label": "Facebook", "url": "https://www.facebook.com/ccsroma" },
+    { "id": "instagram", "label": "Instagram", "url": "https://www.instagram.com/ccsroma" },
+    { "id": "youtube", "label": "YouTube", "url": "https://www.youtube.com/@ccsroma" }
+  ],
+  "external": {
+    "welcomeCardForm": "#",
+    "signupForm": "#",
+    "eventRegistration": "#",
+    "giving": "#",
+    "growPrayerPdf": "#",
+    "testimonyForm": "#",
+    "youtubeChannel": "#"
+  }
+}

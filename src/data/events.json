@@ -1,0 +1,52 @@
+[
+  {
+    "id": "celebrazione-domenicale",
+    "title": "Celebrazione domenicale",
+    "day": "Domenica",
+    "startTime": "08:30",
+    "endTime": "10:00",
+    "location": "CCS Roma",
+    "description": "Un momento di lode, adorazione e predicazione della Parola.",
+    "recurring": true
+  },
+  {
+    "id": "celebrazione-domenicale-2",
+    "title": "Celebrazione domenicale",
+    "day": "Domenica",
+    "startTime": "10:30",
+    "endTime": "12:00",
+    "location": "CCS Roma",
+    "description": "Un momento di lode, adorazione e predicazione della Parola.",
+    "recurring": true
+  },
+  {
+    "id": "preghiera-donne",
+    "title": "Incontro di preghiera — Donne",
+    "day": "Lunedì",
+    "startTime": "19:45",
+    "endTime": "21:00",
+    "location": "Al telefono",
+    "description": "Un momento di preghiera e condivisione per le donne.",
+    "recurring": true
+  },
+  {
+    "id": "preghiera-uomini",
+    "title": "Incontro di preghiera — Uomini",
+    "day": "Martedì",
+    "startTime": "07:00",
+    "endTime": "08:00",
+    "location": "In presenza e online",
+    "description": "Un momento di preghiera e condivisione per gli uomini.",
+    "recurring": true
+  },
+  {
+    "id": "studio-biblico-mercoledi",
+    "title": "Studio biblico del mercoledì sera",
+    "day": "Mercoledì",
+    "startTime": "19:30",
+    "endTime": "21:00",
+    "location": "CCS Roma",
+    "description": "Approfondimento biblico aperto a tutta la comunità.",
+    "recurring": true
+  }
+]

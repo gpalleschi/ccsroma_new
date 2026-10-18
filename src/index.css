@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-[#FAFAFA] text-neutral-900 antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  #root {
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@layer components {
+  .page-block {
+    @apply mx-auto w-full max-w-content px-6;
+  }
+
+  .divider {
+    @apply mx-auto my-0 block h-px w-full max-w-content border-0 bg-neutral-200;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg font-semibold transition-colors duration-150 focus:outline-none focus:ring-2 focus:ring-brand focus:ring-offset-2;
+    padding: 0.625rem 1.5rem;
+    font-size: 0.9375rem;
+  }
+
+  .btn-primary {
+    @apply text-neutral-900;
+    background-image: linear-gradient(117.9deg, #d9bf8c, #d9bf8c);
+  }
+
+  .btn-primary:hover {
+    background-image: linear-gradient(117.9deg, #c9a763, #c9a763);
+  }
+
+  .btn-secondary {
+    @apply border border-neutral-300 bg-white text-neutral-900;
+  }
+
+  .btn-secondary:hover {
+    @apply border-brand-dark text-brand-dark;
+  }
+
+  .btn-compact {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+  }
+}
+
+@layer utilities {
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
+
+  .skip-link {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    z-index: 2000;
+    background: #fff;
+    padding: 0.75rem 1rem;
+    font-weight: 600;
+  }
+
+  .skip-link:focus {
+    left: 1rem;
+    top: 1rem;
+  }
+}
