@@ -62,10 +62,12 @@ const it = {
       { alt: 'Offerte', label: 'Offerte' },
     ],
     soulCareAlt: 'Cura dell’anima',
+    lastMessageAlt: 'Ultimo messaggio',
     wednesdayAlt: 'Studio biblico del mercoledì sera',
     womenPrayerAlt: 'Preghiera delle donne',
     menPrayerAlt: 'Preghiera degli uomini',
     youngAdultsAlt: 'Young Adults',
+    connectHomeAlt: 'Connect Home',
     growPrayerButton: 'PREGHIERA PER LA CRESCITA DELLA NOSTRA CHIESA',
     godAtWork: {
       imageAlt: 'Dio all’opera',

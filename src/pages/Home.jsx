@@ -41,19 +41,25 @@ export default function Home() {
 
       <div className="page-block py-6">
         <CardGrid
-          items={[{ label: it.home.soulCareAlt, src: '/images/locandina_battesimi.jpg' }, { label: '' }]}
+          items={[
+            { label: it.home.soulCareAlt, src: '/images/locandina_battesimi.jpg' },
+            { label: it.home.lastMessageAlt, src: '/images/lastMessage.jpg', href: 'https://youtube.com/live/80e7AC_hpV8?feature=share' },
+          ]}
           columnsDesktop={2}
           columnsMobile={2}
         />
       </div>
 
       <div className="page-block py-6">
-        <ImageBlock label={it.home.wednesdayAlt} />
+        <ImageBlock src="/images/timoteo.jpg" alt={it.home.wednesdayAlt} />
       </div>
 
       <div className="page-block py-6">
         <CardGrid
-          items={[{ label: it.home.youngAdultsAlt, src: '/images/youth.jpg' }, { label: '' }]}
+          items={[
+            { label: it.home.youngAdultsAlt, src: '/images/youth.jpg' },
+            { label: it.home.connectHomeAlt, src: '/images/connecthome.jpg' },
+          ]}
           columnsDesktop={2}
           columnsMobile={2}
         />
